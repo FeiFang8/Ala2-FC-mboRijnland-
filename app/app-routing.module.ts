@@ -4,6 +4,10 @@ import {LoginComponent} from './login/login.component';
 import {DashboardComponent} from './dashboard/dashboard.component';
 import {TeamsComponent} from './teams/teams.component';
 import {SpelersComponent} from './spelers/spelers.component';
+import {RegisterComponent} from './register/register.component';
+import {TeamComponent} from './team/team.component';
+import {SpelerComponent} from './speler/speler.component';
+
 
 const routes: Routes = [
   {
@@ -21,6 +25,18 @@ const routes: Routes = [
   {
     path: "spelers",
     component: SpelersComponent
+  },
+  {
+    path: "register",
+    component: RegisterComponent
+  },
+  {
+    path: "team",
+    component: TeamComponent
+  },
+  {
+    path: "speler",
+    component: SpelerComponent
   }
 
 ];

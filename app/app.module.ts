@@ -11,6 +11,7 @@ import { TeamsComponent } from './teams/teams.component';
 import { SpelersComponent } from './spelers/spelers.component';
 import { TeamComponent } from './team/team.component';
 import { SpelerComponent } from './speler/speler.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SpelerComponent } from './speler/speler.component';
     TeamsComponent,
     SpelersComponent,
     TeamComponent,
-    SpelerComponent
+    SpelerComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
